@@ -1,0 +1,12 @@
+.logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--logo-color);
+  /* background-color: limegreen; */
+  justify-self: center;
+  /* align-self: end; */
+  /* padding: 0 0.5em; */
+  /* border: 1px solid blue; */
+  cursor: pointer;
+}
