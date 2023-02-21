@@ -1,7 +1,12 @@
+import Link from "next/link";
 import styles from "./Logo.module.css";
 
 const Logo = () => {
-  return <h2 className={styles.logo}>MovieChoice</h2>;
+  return (
+    <Link href="/" className={styles.logo}>
+      <h2>MovieChoice</h2>
+    </Link>
+  );
 };
 
 export default Logo;

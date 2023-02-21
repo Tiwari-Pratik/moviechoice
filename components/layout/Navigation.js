@@ -9,11 +9,9 @@ const Navigation = () => {
     <nav className={styles.navigation}>
       <ul className={styles.nav_links}>
         <li>
-          {/* <HomeIcon /> */}
           <Link href="/">Home</Link>
         </li>
         <li>
-          {/* <AccountIcon /> */}
           <Link href="#">Account</Link>
         </li>
       </ul>

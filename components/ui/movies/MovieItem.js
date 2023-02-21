@@ -1,13 +1,20 @@
 import Image from "next/image";
 import styles from "./MovieItem.module.css";
 
-const MovieItem = () => {
+const MovieItem = (props) => {
+  const { title, poster, description, rating } = props;
   return (
     <div className={styles.movie}>
-      <Image src="/images/movie1.jpg" alt="movie" width={300} height={200} />
-      <h3>title</h3>
-      <p>description</p>
-      <p>rating</p>
+      <Image
+        src={`https://image.tmdb.org/t/p/w500${poster}`}
+        alt={title}
+        width={200}
+        height={200}
+        layout="responsive"
+      />
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <p>{rating}</p>
     </div>
   );
 };
