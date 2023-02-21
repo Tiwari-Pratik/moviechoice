@@ -10,7 +10,8 @@ const MovieItem = (props) => {
         alt={title}
         width={200}
         height={200}
-        layout="responsive"
+        className={styles.image}
+        priority
       />
       <h3>{title}</h3>
       <p>{description}</p>

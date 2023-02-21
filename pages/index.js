@@ -1,6 +1,5 @@
 import MoviesGrid from "../components/ui/movies/MoviesGrid";
-
-const { Fragment } = require("react");
+import { Fragment } from "react";
 
 const HomePage = (props) => {
   return (
